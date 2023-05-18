@@ -52,6 +52,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     private static final String[] AUTH_WHITELIST = {
             "/product/**",
             "/api/auth/**",
+            "/test/**",
     };
     @Override
     protected void configure(HttpSecurity http) throws Exception {
